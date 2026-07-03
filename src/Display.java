@@ -35,5 +35,13 @@ class Display{
             System.out.println("+-----------------------------+");
         }
     }
+    public void dispendLine()
+    {
+        System.out.println();
+        System.out.println("-------------------------------");
+        System.out.println("Do Next Turn...");
+        System.out.println("-------------------------------");
+        System.out.println();
+    }
 }
 
